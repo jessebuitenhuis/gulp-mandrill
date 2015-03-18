@@ -1,6 +1,10 @@
 var gulp = require("gulp");
+var gulpMandrill = require("./index.js");
 
 gulp.task('hello', function(){
-    console.log('hello');
+    return gulp.src('Test.html')
+        .pipe(gulpMandrill.render())
+
+        .pipe(gulp.dest('output'));
 });
 
