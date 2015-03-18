@@ -1,0 +1,27 @@
+{
+  "name": "gulp-mandrill",
+  "version": "0.0.1",
+  "description": "A gulp plugin to work with the Mandrill API.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/jessebuitenhuis/gulp-mandrill"
+  },
+  "keywords": [
+    "gulpplugin",
+    "mandrill"
+  ],
+  "author": "Jesse Buitenhuis",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "gulp": "^3.8.11",
+    "mocha": "^2.2.1"
+  }
+}
